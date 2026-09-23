@@ -94,8 +94,8 @@ I am currently architecting the backend and building the mobile ecosystem for Vi
 
 ### 📝 Latest Technical Articles
 <!-- BLOG-POST-LIST:START -->
+- [NestJS Dünyasında Alışkanlıkları Kırmak: TypeORM’dan Drizzle ORM’a Geçiş Zamanı mı?](https://medium.com/@mehmetirmaakk/nestjs-typeorm-vs-drizzle-orm-eda7d78b945b?source=rss-4090ceca92f4------2)
 - [Beyond the Boilerplate: Why NestJS Is the Unsung Hero of Scalable Cloud Backends in 2026](https://medium.com/@mehmetirmaakk/beyond-the-boilerplate-why-nestjs-is-the-unsung-hero-of-scalable-cloud-backends-in-2026-956c30a6a865?source=rss-4090ceca92f4------2)
 - [Preparing for the Quantum Apocalypse: Post-Quantum Cryptography in Go 1.27, Node.js, and Python](https://medium.com/@mehmetirmaakk/post-quantum-cryptography-go-nodejs-python-2026-7498f8cd8b2b?source=rss-4090ceca92f4------2)
 - [Building and Automating Production-Ready Cloud Architecture: Go, GCP, and Terraform](https://medium.com/@mehmetirmaakk/building-and-automating-production-ready-cloud-architecture-go-gcp-and-terraform-a0e6938caa49?source=rss-4090ceca92f4------2)
-- [Stop Letting Users Spy on Each Other! ️‍♂️ Building a Smart Media Guard in NestJS](https://medium.com/@mehmetirmaakk/stop-letting-users-spy-on-each-other-%EF%B8%8F-%EF%B8%8F-building-a-smart-media-guard-in-nestjs-9d7640bd4b98?source=rss-4090ceca92f4------2)
 <!-- BLOG-POST-LIST:END -->
