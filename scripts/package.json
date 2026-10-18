@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "type": "module",
+  "description": "Asset renderers for the profile README.",
+  "devDependencies": {
+    "fontkit": "^2.0.4",
+    "subset-font": "^2.9.0"
+  }
+}

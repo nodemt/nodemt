@@ -3,19 +3,27 @@ on:
     schedule:
         - cron: '0 * * * *'
     workflow_dispatch:
+permissions:
+    contents: write
 jobs:
     update-readme-with-blog:
-        name: Update this repo's README with latest blog posts
+        name: Render the latest Medium posts into the README
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v5
-            - uses: gautamkrishnar/blog-post-workflow@v1
+            - uses: actions/setup-node@v5
               with:
-                max_post_count: "5"
-                feed_list: "https://medium.com/feed/@mehmetirmaakk"
-                # Same treatment as the site's Writing list: dated, no emoji, no tracking params.
-                template: "- `$date` · [$title]($url)$newline"
-                date_format: "mmm yyyy"
-                # Keep the markers on their own lines so the first item renders as a list item.
-                tag_post_pre_newline: "true"
-                item_exec: "post.title = post.title.replace(/\\p{Extended_Pictographic}|\\uFE0F|\\u200D/gu, '').replace(/\\s+/g, ' ').trim(); post.url = post.url.split('?')[0];"
+                node-version: 24
+                cache: npm
+                cache-dependency-path: scripts/package-lock.json
+            - run: npm ci --prefix scripts
+            # Fetches the feed, renders one SVG row per post and rewrites the README's WRITING block.
+            - run: node scripts/render-writing.mjs
+            - name: Commit if anything changed
+              run: |
+                git add README.md assets/writing
+                git diff --cached --quiet && exit 0
+                git config user.name "github-actions[bot]"
+                git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                git commit -m "Updated with the latest blog posts"
+                git push
