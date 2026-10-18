@@ -53,6 +53,7 @@ Principles are cheap. Each one here points to a system where it was tested in pr
 - `Jun 2026` · [Preparing for the Quantum Apocalypse: Post-Quantum Cryptography in Go 1.27, Node.js, and Python](https://medium.com/@mehmetirmaakk/post-quantum-cryptography-go-nodejs-python-2026-7498f8cd8b2b)
 - `Jun 2026` · [Building and Automating Production-Ready Cloud Architecture: Go, GCP, and Terraform](https://medium.com/@mehmetirmaakk/building-and-automating-production-ready-cloud-architecture-go-gcp-and-terraform-a0e6938caa49)
 - `Mar 2026` · [Stop Letting Users Spy on Each Other! Building a Smart Media Guard in NestJS](https://medium.com/@mehmetirmaakk/stop-letting-users-spy-on-each-other-%EF%B8%8F-%EF%B8%8F-building-a-smart-media-guard-in-nestjs-9d7640bd4b98)
+
 <!-- BLOG-POST-LIST:END -->
 
 [All articles on Medium ↗](https://medium.com/@mehmetirmaakk)
