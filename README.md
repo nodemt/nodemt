@@ -1,101 +1,75 @@
-<div align="center">
-  <h1>Hi 👋, I'm Mehmet Talha Irmak</h1>
-  
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00ADD8&center=true&vCenter=true&width=500&lines=Software+Engineer;Backend+%26+Full+Stack;Go+%26+Node.js+Specialist;Building+Scalable+Systems" alt="Typing SVG" />
-  </a>
+<p>
+<a href="https://mehmettalhairmak.me">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.png">
+    <img alt="Mehmet Talha Irmak, Full Stack Engineer, Turkey. I build systems that hold up. Working span from device to cloud: Swift, Kotlin and BLE; React Native and Expo; React and Next.js; Node.js, NestJS and Go; RabbitMQ and BullMQ; PostgreSQL, AWS and GCP." src="assets/header-light.png" width="100%">
+  </picture>
+</a>
+</p>
 
-  <p><i>Building highly scalable microservices, event-driven architectures, and AI-powered products.</i></p>
+Self-taught, TypeScript-focused full-stack engineer. For 4+ years I've shipped production apps end to end — React Native and Next.js interfaces on top of event-driven cloud backends in Node.js, NestJS and Go. Currently Full Stack Software Developer at [Neon Apps](https://neonapps.co), Istanbul.
 
-  <a href="https://linkedin.com/in/mehmettalhairmak" target="blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" />
-  </a>
-  <a href="https://mehmettalhairmak.me" target="blank">
-    <img src="https://img.shields.io/badge/Portfolio-252F3F?style=for-the-badge&logo=firefox&logoColor=white" alt="portfolio" />
-  </a>
-  <a href="https://medium.com/@mehmetirmaakk" target="blank">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="medium" />
-  </a>
-  <a href="mailto:mehmetirmaakk@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email" />
-  </a>
-</div>
+**[mehmettalhairmak.me](https://mehmettalhairmak.me)** · [LinkedIn](https://linkedin.com/in/mehmettalhairmak) · [Medium](https://medium.com/@mehmetirmaakk) · [mtalhairmak@gmail.com](mailto:mtalhairmak@gmail.com)
 
----
+## `01` Selected work
 
-### 🚀 About Me & Engineering Philosophy
+| | Project | | Period |
+|---|---|---|---|
+| `01` | **[DotQuit](https://mehmettalhairmak.me/work/dotquit)** | Native macOS utility that quits apps when their last window closes. | <code>Oct&nbsp;2026</code> |
+| `02` | **[SnapShade](https://mehmettalhairmak.me/work/snapshade)** ↳`03` | AI hairstyle transformation app on the BananaUltra architecture, narrowed to a single concept. | <code>Mar&nbsp;2026&nbsp;·&nbsp;Archived</code> |
+| `03` | **[BananaUltra](https://mehmettalhairmak.me/work/bananaultra)** ◆ | Generative AI image platform, launched and monetised independently. | <code>Dec&nbsp;2025&nbsp;·&nbsp;Archived</code> |
+| `04` | **[Yuksi](https://mehmettalhairmak.me/work/yuksi)** ◆ | Uber-style on-demand logistics SaaS — mobile app, CRM and an event-driven backend. | <code>Dec&nbsp;2025&nbsp;–&nbsp;Feb&nbsp;2026</code> |
+| `05` | **[8thSense](https://mehmettalhairmak.me/work/8thsense)** | Enterprise IoT platform — cloud infrastructure and a real-time telemetry charting engine. | <code>Jun&nbsp;2022&nbsp;–&nbsp;Jul&nbsp;2025</code> |
+| `06` | **[Buscalia](https://mehmettalhairmak.me/work/buscalia)** | Real-time fleet monitoring dashboard for a Spanish logistics-tech startup. | <code>Oct&nbsp;–&nbsp;Nov&nbsp;2023</code> |
+| `07` | **[depremyardim](https://mehmettalhairmak.me/work/depremyardim)** | Crisis platform for rescue requests after the 6 February 2023 earthquakes. | <code>Feb&nbsp;2023</code> |
 
-I am a self-taught Software Engineer with over 4 years of experience specializing in backend systems, cloud infrastructure, and end-to-end product development. I treat engineering strictly as a **product discipline**: code is just a tool to solve real-world problems. 
+<sub>◆ explorable architecture on the site · ↳ shares another project's architecture</sub>
 
-*   💡 **Architecture First:** I design systems prioritizing atomic data integrity, reliability, and long-term business impact. I don't just write APIs; I build idempotent, race-condition-proof microservices.
-*   ⚡ **Performance Driven:** Whether it's processing real-time telemetry from IoT devices via MQTT, or ensuring a strict 60 FPS render cycle on a React Native mobile client, I focus heavily on low latency and optimal resource usage.
-*   ☁️ **Cloud Native:** I am passionate about Infrastructure as Code (IaC) and serverless environments, actively provisioning infrastructure using Terraform, AWS CDK, and Google Cloud.
+## `02` Internal systems
 
----
+| | System | | |
+|---|---|---|---|
+| <code>S1</code> | **Social Engine** ◆ | NestJS social backend that keeps HTTP responses under 50ms. | [Repo](https://github.com/nodemt/social-engine-nest) · [Explorer](https://mehmettalhairmak.me/work/social-engine) |
+| <code>S2</code> | **Realtime Messaging API** | REST + Socket.IO messaging with presence, retries and scheduled messages. | [Repo](https://github.com/nodemt/realtime-messaging-api-node) · [Notes](https://mehmettalhairmak.me/work/messaging-api) |
+| <code>S3</code> | **RSS Aggregator** | Concurrent Go scraper with a WebSocket push hub. | [Repo](https://github.com/nodemt/rss-aggregator-go) · [Notes](https://mehmettalhairmak.me/work/rss-aggregator) |
+| <code>S4</code> | **Secure Media Guard** | NestJS microservice for authorised, multi-variant image delivery. | [Repo](https://github.com/nodemt/nestjs-media-guard) · [Notes](https://mehmettalhairmak.me/work/media-guard) |
 
-### 🔭 What I'm Actively Building
+## `03` Engineering approach
 
-**[ViraSync](https://mehmettalhairmak.me) — AI Video Generation Platform**
-I am currently architecting the backend and building the mobile ecosystem for ViraSync.
-*   **Backend:** Go 1.26, Gin framework, strictly adhering to Clean Architecture.
-*   **Infrastructure:** Containerized with Docker, deployed serverlessly on Google Cloud Run, and provisioned via Terraform.
-*   **AI Pipeline:** Integrating Gemini AI and BytePlus SDK for asynchronous video rendering, managed by Upstash QStash background workers.
-*   **Real-time & Safety:** Hybrid REST/WebSocket sync via Appwrite, heavily protected by Redis-backed idempotency middleware.
+Principles are cheap. Each one here points to a system where it was tested in production.
 
-### 📦 Shipped Products & Micro-SaaS
+- `§1` **Money and state change atomically, or not at all.** — [BananaUltra › Edge Functions](https://mehmettalhairmak.me/work/bananaultra/edge)
+- `§2` **Keep slow work off the request path.** — [Social Engine › BullMQ](https://mehmettalhairmak.me/work/social-engine/queue)
+- `§3` **Events over entanglement.** — [Yuksi › Event pipeline](https://mehmettalhairmak.me/work/yuksi/mq)
+- `§4` **A frame budget is a real budget.** — [8thSense](https://mehmettalhairmak.me/work/8thsense)
+- `§5` **Make the toolchain boring.** — [8thSense](https://mehmettalhairmak.me/work/8thsense)
+- `§6` **Reduce friction, then reduce cost.** — [BananaUltra › Cloudflare R2](https://mehmettalhairmak.me/work/bananaultra/r2)
 
-*   **Banana Ultra & SnapShade:** Independently developed and launched AI-driven applications on the iOS App Store. Designed a webhook-driven dual credit system (RevenueCat + Supabase Edge Functions) ensuring ACID-compliant atomic deductions with Redux race-condition guards. Engineered a hybrid caching layer using Cloudflare R2 for near-zero egress media serving.
-*   **Enterprise Logistics & IoT:** Previously built async RESTful APIs using FastAPI/RabbitMQ for an Uber-style logistics SaaS, and architected full serverless AWS infrastructures for real-time industrial IoT telemetry (sub-100ms response).
+## `04` Writing
 
----
-
-### 🛠️ Technical Arsenal
-
-**Languages & Core**
-<br />
-<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white" />
-<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
-
-**Backend & Architecture**
-<br />
-<img src="https://img.shields.io/badge/Gin-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-<img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" />
-<img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
-
-**Cloud & DevOps**
-<br />
-<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-<img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" />
-
-**Databases & BaaS**
-<br />
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-<img src="https://img.shields.io/badge/ElasticSearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" />
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-<img src="https://img.shields.io/badge/Appwrite-FD366E?style=for-the-badge&logo=appwrite&logoColor=white" />
-
-**Mobile & Frontend**
-<br />
-<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white" />
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-
----
-
-### 📝 Latest Technical Articles
 <!-- BLOG-POST-LIST:START -->
-- [NestJS Dünyasında Alışkanlıkları Kırmak: TypeORM’dan Drizzle ORM’a Geçiş Zamanı mı?](https://medium.com/@mehmetirmaakk/nestjs-typeorm-vs-drizzle-orm-eda7d78b945b?source=rss-4090ceca92f4------2)
-- [Beyond the Boilerplate: Why NestJS Is the Unsung Hero of Scalable Cloud Backends in 2026](https://medium.com/@mehmetirmaakk/beyond-the-boilerplate-why-nestjs-is-the-unsung-hero-of-scalable-cloud-backends-in-2026-956c30a6a865?source=rss-4090ceca92f4------2)
-- [Preparing for the Quantum Apocalypse: Post-Quantum Cryptography in Go 1.27, Node.js, and Python](https://medium.com/@mehmetirmaakk/post-quantum-cryptography-go-nodejs-python-2026-7498f8cd8b2b?source=rss-4090ceca92f4------2)
-- [Building and Automating Production-Ready Cloud Architecture: Go, GCP, and Terraform](https://medium.com/@mehmetirmaakk/building-and-automating-production-ready-cloud-architecture-go-gcp-and-terraform-a0e6938caa49?source=rss-4090ceca92f4------2)
+- `Sep 2026` · [NestJS Dünyasında Alışkanlıkları Kırmak: TypeORM’dan Drizzle ORM’a Geçiş Zamanı mı?](https://medium.com/@mehmetirmaakk/nestjs-typeorm-vs-drizzle-orm-eda7d78b945b)
+- `Sep 2026` · [Beyond the Boilerplate: Why NestJS Is the Unsung Hero of Scalable Cloud Backends in 2026](https://medium.com/@mehmetirmaakk/beyond-the-boilerplate-why-nestjs-is-the-unsung-hero-of-scalable-cloud-backends-in-2026-956c30a6a865)
+- `Jun 2026` · [Preparing for the Quantum Apocalypse: Post-Quantum Cryptography in Go 1.27, Node.js, and Python](https://medium.com/@mehmetirmaakk/post-quantum-cryptography-go-nodejs-python-2026-7498f8cd8b2b)
+- `Jun 2026` · [Building and Automating Production-Ready Cloud Architecture: Go, GCP, and Terraform](https://medium.com/@mehmetirmaakk/building-and-automating-production-ready-cloud-architecture-go-gcp-and-terraform-a0e6938caa49)
+- `Mar 2026` · [Stop Letting Users Spy on Each Other! Building a Smart Media Guard in NestJS](https://medium.com/@mehmetirmaakk/stop-letting-users-spy-on-each-other-%EF%B8%8F-%EF%B8%8F-building-a-smart-media-guard-in-nestjs-9d7640bd4b98)
 <!-- BLOG-POST-LIST:END -->
+
+[All articles on Medium ↗](https://medium.com/@mehmetirmaakk)
+
+## `05` Bill of materials
+
+| Layer | |
+|---|---|
+| <code>Languages</code> | TypeScript, JavaScript, Go, Python, Swift, Kotlin, SQL |
+| <code>Mobile&nbsp;&amp;&nbsp;web</code> | React Native, Expo, EAS, React, Next.js, Zustand, Redux Toolkit, React Query, D3.js |
+| <code>Services</code> | Node.js, Express, NestJS, Go (Gin), FastAPI |
+| <code>Messaging</code> | RabbitMQ, BullMQ, WebSocket, Socket.IO, SQS, SNS |
+| <code>Data</code> | PostgreSQL, MySQL, MongoDB, Redis, DynamoDB, ElasticSearch |
+| <code>AWS</code> | **IaC & ops** CDK, CloudFormation, CloudWatch · **Compute** Lambda, EC2, Amplify · **APIs & auth** API Gateway, AppSync, Cognito · **Storage** S3, RDS, DynamoDB · **Messaging** SNS, SES |
+| <code>Cloud</code> | Google Cloud Run, Terraform, Docker, Cloudflare R2 |
+| <code>Platforms</code> | Supabase, Firebase, Appwrite, RevenueCat, Sentry, Mixpanel |
+
+---
+
+<sub>Full portfolio, architecture explorers and engineering notes at **[mehmettalhairmak.me](https://mehmettalhairmak.me)** — press ⌘K to jump anywhere.</sub>
