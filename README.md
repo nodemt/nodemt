@@ -47,7 +47,8 @@ Principles are cheap. Each one here points to a system where it was tested in pr
 
 ## `04` Writing
 
-<!-- BLOG-POST-LIST:START -->- `Sep 2026` · [NestJS Dünyasında Alışkanlıkları Kırmak: TypeORM’dan Drizzle ORM’a Geçiş Zamanı mı?](https://medium.com/@mehmetirmaakk/nestjs-typeorm-vs-drizzle-orm-eda7d78b945b)
+<!-- BLOG-POST-LIST:START -->
+- `Sep 2026` · [NestJS Dünyasında Alışkanlıkları Kırmak: TypeORM’dan Drizzle ORM’a Geçiş Zamanı mı?](https://medium.com/@mehmetirmaakk/nestjs-typeorm-vs-drizzle-orm-eda7d78b945b)
 - `Sep 2026` · [Beyond the Boilerplate: Why NestJS Is the Unsung Hero of Scalable Cloud Backends in 2026](https://medium.com/@mehmetirmaakk/beyond-the-boilerplate-why-nestjs-is-the-unsung-hero-of-scalable-cloud-backends-in-2026-956c30a6a865)
 - `Jun 2026` · [Preparing for the Quantum Apocalypse: Post-Quantum Cryptography in Go 1.27, Node.js, and Python](https://medium.com/@mehmetirmaakk/post-quantum-cryptography-go-nodejs-python-2026-7498f8cd8b2b)
 - `Jun 2026` · [Building and Automating Production-Ready Cloud Architecture: Go, GCP, and Terraform](https://medium.com/@mehmetirmaakk/building-and-automating-production-ready-cloud-architecture-go-gcp-and-terraform-a0e6938caa49)

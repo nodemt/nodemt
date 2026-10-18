@@ -8,7 +8,7 @@ jobs:
         name: Update this repo's README with latest blog posts
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
             - uses: gautamkrishnar/blog-post-workflow@v1
               with:
                 max_post_count: "5"
@@ -16,4 +16,6 @@ jobs:
                 # Same treatment as the site's Writing list: dated, no emoji, no tracking params.
                 template: "- `$date` · [$title]($url)$newline"
                 date_format: "mmm yyyy"
+                # Keep the markers on their own lines so the first item renders as a list item.
+                tag_post_pre_newline: "true"
                 item_exec: "post.title = post.title.replace(/\\p{Extended_Pictographic}|\\uFE0F|\\u200D/gu, '').replace(/\\s+/g, ' ').trim(); post.url = post.url.split('?')[0];"
