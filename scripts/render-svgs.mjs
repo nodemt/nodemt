@@ -19,7 +19,7 @@ const SPAN = [
 ];
 
 const HERO_ALT =
-  "Mehmet Talha Irmak, Full Stack Engineer, Turkey. I build systems that hold up. Self-taught and TypeScript-focused; 4+ years shipping production apps end to end, now at Neon Apps, Istanbul. Working span from device to cloud: Swift, Kotlin and BLE; React Native and Expo; React and Next.js; Node.js, NestJS and Go; RabbitMQ and BullMQ; PostgreSQL, AWS and GCP.";
+  "Mehmet Talha Irmak, Full Stack Engineer based in Turkey. TypeScript-focused with 4+ years building production software across mobile, web and backend. Hands-on AWS experience; exploring deeper cloud architecture and Go through personal projects.";
 
 function hero(t) {
   const W = 1200, H = 580, R = W - PAD;
@@ -36,7 +36,7 @@ function hero(t) {
   const titleBlock = `
 ${box(tb.x, tb.y, tb.w, tb.row * 3, `class="draw" fill="none" stroke="${t.ink}" ${delay(0.6)}`)}
 <path d="M${tb.x} ${tb.y + tb.row}H${R}M${tb.x} ${tb.y + tb.row * 2}H${R}M${half} ${tb.y + tb.row * 2}v${tb.row}" pathLength="1" class="draw" fill="none" stroke="${t.ink}" stroke-opacity=".6" ${delay(0.9)}/>
-${cell(tb.x, tb.y, "NOW", "Neon Apps · Istanbul", 1.1)}
+${cell(tb.x, tb.y, "FOCUS", "Backend · Cloud", 1.1)}
 <g class="pop" ${delay(1.6)}><circle cx="${R - 20}" cy="${tb.y + 24}" r="4" fill="${t.acc}"/><circle cx="${R - 20}" cy="${tb.y + 24}" r="4" fill="${t.acc}" class="pulse" ${delay(1.6)}/></g>
 ${cell(tb.x, tb.y + tb.row, "IN PRODUCTION", "4+ years, end to end", 1.2)}
 ${cell(tb.x, tb.y + tb.row * 2, "REV", "2026.10", 1.3)}
