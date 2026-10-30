@@ -13,7 +13,7 @@ const SPAN = [
   ["Device", "Swift · Kotlin · BLE"],
   ["Mobile", "React Native · Expo"],
   ["Web", "React · Next.js"],
-  ["Services", "Node.js · NestJS · Python"],
+  ["Services", "Node.js · NestJS · Go"],
   ["Messaging", "RabbitMQ · BullMQ"],
   ["Data & cloud", "PostgreSQL · AWS · GCP"],
 ];
@@ -87,7 +87,7 @@ ${labels}`;
 // ---------- fig. 1: request path ----------
 
 const FIG_ALT =
-  "Figure 1, an example asynchronous request path: a client calls an API; the API writes to storage and enqueues slow work on RabbitMQ or BullMQ; background workers consume the queue and persist results to PostgreSQL, Redis, DynamoDB or S3.";
+  "Figure 1, the shape of most things I ship: a client calls the API and gets an answer in under 50 ms; the API writes to storage and enqueues slow work on RabbitMQ or BullMQ; background workers consume the queue and persist results to PostgreSQL, Redis, DynamoDB or S3.";
 
 function requestPath(t) {
   const W = 1200, H = 440, R = W - PAD;
@@ -211,7 +211,7 @@ const PROJECTS = [
 ];
 
 const SYSTEMS = [
-  { no: "S1", repo: "social-engine-nest", name: "Social Engine", stack: "NestJS", explorer: true, desc: "NestJS social backend using Redis and BullMQ for asynchronous jobs." },
+  { no: "S1", repo: "social-engine-nest", name: "Social Engine", stack: "NestJS", explorer: true, desc: "NestJS social backend that keeps HTTP responses under 50ms." },
   { no: "S2", repo: "realtime-messaging-api-node", name: "Realtime Messaging API", stack: "Node.js · Socket.IO", desc: "REST + Socket.IO messaging with presence, retries and scheduled messages." },
   { no: "S3", repo: "rss-aggregator-go", name: "RSS Aggregator", stack: "Go", desc: "Concurrent Go scraper with a WebSocket push hub." },
   { no: "S4", repo: "nestjs-media-guard", name: "Secure Media Guard", stack: "NestJS", desc: "NestJS microservice for authorised, multi-variant image delivery." },
